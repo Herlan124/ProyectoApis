@@ -1,0 +1,7 @@
+create table cliente(
+    ci numeric(8) primary key,
+    nombre varchar(30),
+    direccion varchar(30),
+    fecha_nac date,
+    ciudad varchar(30)
+)
